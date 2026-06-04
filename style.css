@@ -54,3 +54,11 @@
     pointer-events: none;
     transition: 0.3s;
   }
+
+   .inputbox input:focus ~ label,
+  .inputbox input:disabled ~ label,
+  .inputbox input:valid ~ label {
+    top: -9px;
+    font-size: 12px;
+    font-weight: 400;
+  }
