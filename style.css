@@ -62,3 +62,14 @@
     font-size: 12px;
     font-weight: 400;
   }
+
+   .slider-container {
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    /* text-align: center; */
+    margin: 0 auto;
+    top: 4em;
+    /* border: 2px solid red; */
+  }
+  
