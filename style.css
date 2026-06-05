@@ -122,3 +122,15 @@
     z-index: 1;
     color: #ffba08;
   }
+
+  /* Mozilla firefox */
+  .slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background-color: #fa7921;
+    cursor: pointer;
+    position: relative;
+    top: -2px;
+    border-radius: 50%;
+    z-index: 2;
+  }
