@@ -73,3 +73,12 @@
     /* border: 2px solid red; */
   }
   
+   .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    margin: 0 auto;
+    height: 7px;
+    border-radius: 7px;
+    background: linear-gradient(90deg, #e8eddf 60%, #e8eddf 60%);
+    outline: none;
+  }
