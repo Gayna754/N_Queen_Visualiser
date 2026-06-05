@@ -82,3 +82,22 @@
     background: linear-gradient(90deg, #e8eddf 60%, #e8eddf 60%);
     outline: none;
   }
+
+   .slider::after {
+    content: "SLOW";
+    position: absolute;
+    top: -10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fa7921;
+  }
+  
+  .slider::before {
+    content: "FAST";
+    position: absolute;
+    top: -10px;
+    right: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fa7921;
+  }
