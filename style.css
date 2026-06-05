@@ -114,3 +114,11 @@
     border-radius: 50%;
     z-index: 2;
   }
+
+   .slider::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    height: 15px;
+    width: 15px;
+    z-index: 1;
+    color: #ffba08;
+  }
