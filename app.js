@@ -158,3 +158,12 @@ class Queen {
         }
     }
 }
+
+playButton.onclick = async function visualise() {
+    const chessBoard = document.getElementById("n-queen-board");
+    const arrangement = document.getElementById("queen-arrangement");
+
+    n = numberbox.value;
+    q = new Queen();
+
+}
