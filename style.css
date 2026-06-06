@@ -170,3 +170,33 @@
     opacity: 0.8;
     transform: scale(1.05);
   }
+
+   .queen-arrangement {
+    position: relative;
+    top: 140px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #247ba0;
+  }
+  
+  #n-queen-board {
+    position: relative;
+    display: flex;
+    width: 80%;
+    top: 150px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #n-queen-board div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 10px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
+    border-radius: 3px;
+    bottom: 10px;
+  }
