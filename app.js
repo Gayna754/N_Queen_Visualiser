@@ -21,3 +21,8 @@ let pos = {};
 // Setting the slider value onSlide
 speed = (100 - slider.value) * 10;
 tempSpeed = speed;
+slider.oninput = function () {
+    progressBar.style.width = this.value + "%";
+    speed = slider.value;
+    speed = (100 - speed) * 10;
+}
