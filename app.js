@@ -166,4 +166,14 @@ playButton.onclick = async function visualise() {
     n = numberbox.value;
     q = new Queen();
 
+      if (n > 8) {
+        numberbox.value = "";
+        alert("Queen value is too large");
+        return;
+    } else if (n < 1) {
+        numberbox.value = "";
+        alert("Queen value is too small");
+        return;
+    }
+
 }
