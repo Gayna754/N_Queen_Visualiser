@@ -138,3 +138,35 @@
   .slider::-webkit-slider-thumb:hover {
     box-shadow: 0 0 0 2px white, 0 0 0 4px #fa7921;
   }
+   
+  #progress-bar {
+    width: 60%;
+    height: 7px;
+    background: #ffd200;
+    border-radius: 7px;
+    position: absolute;
+    top: 7px;
+  }
+  
+  .play-button {
+    position: relative;
+    top: 80px;
+    left: 35%;
+    border: none;
+    outline: none;
+    color: #fdfffc;
+    width: 80px;
+    height: 35px;
+    background-color: #f72585;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    /* z-index: 1; */
+  }
+  
+  .play-button:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
