@@ -205,6 +205,8 @@ playButton.onclick = async function visualise() {
             
         }
     }
-
+    for (let k = 0; k < array[n]; ++k) {
+        let table = document.getElementById(`table-${q.uuid[k]}`);
+    }
     await q.nQueen();
 };
