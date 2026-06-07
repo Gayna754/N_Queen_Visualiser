@@ -200,7 +200,8 @@ playButton.onclick = async function visualise() {
             table.setAttribute("id", `table-${q.uuid[i]}`);
             header.setAttribute("id", `paragraph-${i}`);
             chessBoard.appendChild(div);
-            
+            div.appendChild(header);
+            div.appendChild(table);
             
         }
     }
