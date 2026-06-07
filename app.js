@@ -206,5 +206,5 @@ playButton.onclick = async function visualise() {
         }
     }
 
-
-}
+    await q.nQueen();
+};
