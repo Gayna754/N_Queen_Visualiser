@@ -189,5 +189,15 @@ playButton.onclick = async function visualise() {
     para.innerHTML = `For ${n}x${n} board, ${array[n] - 1} arrangements are possible.`;
     arrangement.appendChild(para);
 
+     if (chessBoard.childElementCount === 0) {
+        for (let i = 0; i < array[n]; ++i) {
+            q.uuid.push(Math.random());
+            let div = document.createElement('div');
+            let table = document.createElement('table');
+            let header = document.createElement('h4');
+            
+        }
+    }
+
 
 }
