@@ -176,4 +176,12 @@ playButton.onclick = async function visualise() {
         return;
     }
 
+    // Removing all the of previous execution context
+    while (chessBoard.hasChildNodes()) {
+        chessBoard.removeChild(chessBoard.firstChild);
+    }
+    if (arrangement.hasChildNodes()) {
+        arrangement.removeChild(arrangement.lastChild)
+    }
+
 }
