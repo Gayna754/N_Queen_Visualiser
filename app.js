@@ -195,6 +195,12 @@ playButton.onclick = async function visualise() {
             let div = document.createElement('div');
             let table = document.createElement('table');
             let header = document.createElement('h4');
+            // div.setAttribute("id", `div-${100 + uuid[i]}`)
+            header.innerHTML = `Board ${i + 1} `
+            table.setAttribute("id", `table-${q.uuid[i]}`);
+            header.setAttribute("id", `paragraph-${i}`);
+            chessBoard.appendChild(div);
+            
             
         }
     }
