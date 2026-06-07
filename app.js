@@ -184,4 +184,10 @@ playButton.onclick = async function visualise() {
         arrangement.removeChild(arrangement.lastChild)
     }
 
+    const para = document.createElement("p");
+    para.setAttribute("class", "queen-info");
+    para.innerHTML = `For ${n}x${n} board, ${array[n] - 1} arrangements are possible.`;
+    arrangement.appendChild(para);
+
+
 }
