@@ -207,6 +207,11 @@ playButton.onclick = async function visualise() {
     }
     for (let k = 0; k < array[n]; ++k) {
         let table = document.getElementById(`table-${q.uuid[k]}`);
+        for (let i = 0; i < n; ++i) {
+            const row = table.insertRow(i); // inserting ith row
+            row.setAttribute("id", `Row${i} `);
+            
+        }
         await q.clearColor(k);
     }
     await q.nQueen();
