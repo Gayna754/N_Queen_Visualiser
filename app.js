@@ -215,7 +215,8 @@ playButton.onclick = async function visualise() {
                 (i + j) & 1
                     ? (col.style.backgroundColor = "#FF9F1C")
                     : (col.style.backgroundColor = "#FCCD90");
-                
+                col.innerHTML = "-";
+                col.style.border = "0.3px solid #373f51";
             }
         }
         await q.clearColor(k);
