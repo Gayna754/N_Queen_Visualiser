@@ -210,7 +210,13 @@ playButton.onclick = async function visualise() {
         for (let i = 0; i < n; ++i) {
             const row = table.insertRow(i); // inserting ith row
             row.setAttribute("id", `Row${i} `);
-            
+            for (let j = 0; j < n; ++j) {
+                const col = row.insertCell(j); // inserting jth column
+                (i + j) & 1
+                    ? (col.style.backgroundColor = "#FF9F1C")
+                    : (col.style.backgroundColor = "#FCCD90");
+                
+            }
         }
         await q.clearColor(k);
     }
